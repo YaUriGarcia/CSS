@@ -1,0 +1,25 @@
+/*
+ Selector para el body 
+body{  
+    background-color: rgb(242, 246, 247);
+}
+ Selector para la etiqueta H1 
+h1 {
+    color: blueviolet;
+}
+ Selector para el texto p 
+p {
+    color: crimson;  
+} */
+
+
+body {
+    background-image: url("Imagenes/Sin\ título.png");
+    background-repeat: no-repeat;
+    /*background-position-x: right;*/
+    background-position: right top;
+    background-attachment: scroll; /* para dejar la imagen fija en una parte*/
+    background-size: 300px 300px; /*Para editar el tamaño de la imagen*/ 
+}  
+/* La instruccion repeat, position sirven para identificar donde va a ir la imagen o de que forma se va a repetir en la pantalla
+*/ 

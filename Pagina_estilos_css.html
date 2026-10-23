@@ -4,8 +4,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aprendiendo CSS</title>
+    <!--Se comenta el link de la hoja de estilos para hacerlo desde el mismo codigo del HTML-->
+    <!--<link rel="stylesheet" href="estilos.css"> --> 
 </head>
 <body>
+
+    <!---------------------------------------------------------------------------------------------------
+                                Formas de poner estilos en la pagina
+    ----------------------------------------------------------------------------------------------------->
+    <style>
+        body {
+            background-color: beige;
+        }
+        
+        h1 {
+            color: navy;
+        }
+    </style>
+    <!--Esto es recomendable para pequeñas ediciones ya que por buenas practicas es mejor desde un archivo de CSS -->
+
+    <h1>Esto es un titulo</h1>
     
+    <p style="color: brown;"> 
+        En esta parte estamos colocando un parrafo para mostrar <br>
+    en el ejemplo de esta pagina usando css.
+    </p>
+    
+    <h2 style="border: 2px solid green;">Segundo titulo de mi pagina</h2>
+
+    <h3 style="border: 4px solid rgb(223, 219, 15);
+    background-color: cadetblue;">Tercer titulo de mi pagina</h3>
+
+    <h3 style="border: 4px solid rgb(0, 0, 0);
+    background-color: rgb(233, 96, 5);
+    color: rgb(187, 224, 85);">Cuar titulo de mi pagina</h3> 
+    <!--Tambien se puede realizar desde les etiquetas de apertura como en los ejemplos de arriba.
+        En los ejemplos se muestra como poner un borde con el ancho, con algun, color del borde, del fondo y el color del texto-->
+
 </body>
 </html>
