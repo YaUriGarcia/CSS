@@ -23,3 +23,17 @@ body {
 }  
 /* La instruccion repeat, position sirven para identificar donde va a ir la imagen o de que forma se va a repetir en la pantalla
 */ 
+
+ /* Estas son constantes en el archivo html las mando a llamar y las que tengan ese nombre les asignara un borde con ese estilo */
+p.dotted {border-style: dotted;}
+p.solid {border-style: solid; 
+border-width: 5px; /* esto sirve para cambiar el grosor del borde */
+border-radius: 10px; /* para el diseño de el borde mas redondo */
+border-color: blue; /* para cambiar el color del borde */
+}   
+p.dashed {border-style: dashed;}
+p.double {border-style: double;}
+p.groove {border-style: groove;}
+p.ridge {border-style: ridge;}
+p.inset {border-style: inset;}
+p.mix {border-style: dotted dashed solid double;}
