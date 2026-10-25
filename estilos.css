@@ -12,6 +12,9 @@ p {
     color: crimson;  
 } */
 
+body {
+    background-image: url("Imagenes/wallpapers.jpg");
+}
 
 body {
     background-image: url("Imagenes/Sin\ título.png");
@@ -37,3 +40,4 @@ p.groove {border-style: groove;}
 p.ridge {border-style: ridge;}
 p.inset {border-style: inset;}
 p.mix {border-style: dotted dashed solid double;}
+p.solido{border-style: solid;}
