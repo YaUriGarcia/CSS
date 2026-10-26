@@ -1,0 +1,76 @@
+
+#menu_horizontal{
+    margin: 0;
+    padding: 0;
+    list-style: none; /* Sirve para asignar un tipo de lista */
+}
+
+#menu_horizontal a {
+    width: 100px;
+    text-decoration: none;
+    text-align: center;
+    color: rgb(46, 44, 44);
+    background-color: rgba(240, 165, 103, 0.945);
+    padding: 3px 5px;
+    border-right: 1px solid rebeccapurple;
+    display: block;
+} /* Son las especificaciones asignadas para los estilos de los enlaces (a) */
+
+#menu_horizontal p{
+    float: left;
+} /* Son las especificaciones para asignar el tipo de la lista o del texto (p) */
+
+#menu_horizontal a:hover { /* "Hover" sirve para especificar una funcion cuando pase el maouse encima de algun elemento*/
+    background-color: rgb(89, 119, 218);
+} 
+
+#menu_vertical {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#menu_vertical p {
+    margin: 0px;
+    padding: 0px;
+}
+
+#menu_vertical a {
+    display: block;
+    padding: 3px;
+    width: 160px;
+    background-color: rgb(255, 210, 127);
+    border-bottom: 1px solid rgb(165, 77, 15);
+    text-align: center;
+    color: rgb(63, 60, 60);
+    text-decoration: none;
+}
+
+#menu_vertical a:hover {
+    background-color: rgb(57, 141, 197);
+}
+
+
+a{ /* Diferentes tipos de cursores */ 
+/*  cursor: help; /* Tipo de puntero ayuda */
+/*  cursor: crosshair; /* Tipo de puntero cruz */
+/*  cursor: default; /* Lo inhabilita la funcion de cualquier puntero */
+    cursor: pointer; /* Tipo de puntero mano señalando */
+/*  cursor: move; /* Tipo de puntero cruz la que tiene windows para mover ventanas */
+/*  cursor: wait; /* Tipo de puntero de espera o carga*/
+} 
+/* Tipos de cursores o punteros mas comunes 
+1.crosshair
+2.default
+3.pointer
+4.move
+5.e-resize
+6.ne-resize
+7.nw-resize
+8.n-resize
+9.se-resize
+10.sw-resize
+11.s-resize
+12.w-resize
+13.text
+14.wait
+15.help
+16.auto */

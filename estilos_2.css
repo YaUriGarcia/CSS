@@ -1,0 +1,38 @@
+
+/*body {
+    background-image: url(Imagenes/wallpapers.jpg);
+} */
+
+div { 
+    margin-top: 100px; /* Sirve para asignar una separacion de marguen de la parte superior de la pagina */
+    margin-bottom: 400px; /* sirve para agrandar por asi decirlo la pagina */
+    margin-left: 150px; /* Sirve para asignar una separacion del lado izquierdo */ 
+    margin-right: 300px;
+/*  margin: 25px 50px 75px 100px; Sirve para asignar la separacion en una sola definicion */
+/*  margin: auto; le da un margen en automatico sin especificarlo seria una manera estandar de darle diametros a un texto*/
+}
+
+div {
+    border-style: solid; /* Sirve para crear un borde */
+    padding-top: 50px; /* Sirve para separar el texto del borde que se creo no de la pagina */
+    width: 300px;
+    border: 15px solid green;
+} 
+
+div.Uno {
+    font-family: Arial, Helvetica, sans-serif; /* Sirve para cambiar el tipo de fuente de la letra de la pagina */
+    font-size: 10px; /* Sirve para cambiar el tamaño de la fuente */
+    text-decoration: line-through; /* Sirve para colocarle una linea en la letra */
+    text-decoration: overline; /* Sirve para colocarle lineas al texto por arriba de cada fila de texto */
+    text-decoration: underline; /* Sirve para colocarle lineas por debajo del texto */
+    text-transform: capitalize; /* Sirve para que todas las primeras letras de cada palabra en cada fila pasen a mayuscula */
+    text-transform: uppercase; /* Sirve para cambiar a mayuscula todo el texto */
+    text-transform: lowercase; /* Sirve para cambiar todo el texto a minuscula */ 
+/*  letter-spacing: 10px; /* Sirve para cambiar el espacio entre las letras de el texto */ 
+/*  letter-spacing: -5px; /* Sirve para cambiar igual el espacio pero de forma negativa */
+
+}
+h2.texto {
+    font-family: "Sofia", sans-serif ; /* Estas dos son fuentes que pertene a un repositorio en liena, el cual se debe especificar desde el HTML en la cabecera */
+    font-family: "Trirong", serif ;
+} 
